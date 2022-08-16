@@ -46,6 +46,23 @@ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/to
 echo " "
 sleep 10s
 
+echo "Install al list of plugins"
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions
+
+echo " "
+sleep 10s
+
+echo "Install starship"
+curl -sS https://starship.rs/install.sh | sh -y
+
+echo "Add config folder"
+mkdir -p ~/.config && touch ~/.config/starship.toml
+
+echo " "
+sleep 10s
+
 
 # Development tools
 
