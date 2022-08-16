@@ -26,9 +26,9 @@ My own collection of wallpapers
 All my config of VSCode and extensions
 
 
-## Contact 
+## Author
 
-If you want to contact with me:
+| [![twitter/enriquetecfan](http://1.gravatar.com/avatar/d31ede569956380200b718ffe7ae90cf<)](http://twitter.com/enriquetecfan "Follow @enriquetecfan on Twitter") |
 
 1. Twitter -> @enriquetecfan
 2. Email -> enriquemondejar15@gmail.com
