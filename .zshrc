@@ -111,6 +111,8 @@ ip(){
     ifconfig
 }
 
-# Configure git
-git config --global user.name "enriquetecfan11"
-git config --global user.email "enriquemondejar15@gmail.com"
+# Get External IP / Internet Speed
+alias ip="curl https://ipinfo.io/json" # or /ip for plain-text ip
+
+# Open Windows file explorer to the current directory
+alias explorer="explorer.exe ."
