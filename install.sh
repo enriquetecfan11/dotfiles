@@ -65,7 +65,6 @@ sleep 10s
 
 
 # Development tools
-
 echo "Install vim"
 sudo apt-get install -y vim
 
@@ -121,7 +120,24 @@ echo " "
 sleep 10s
 
 
+# Install spotify
+sudo systemctl status ssh
 
+#Install OpenSSH Server
+sudo snap install code --classic
+
+
+# Instalar telegram
+sudo snap install telegram-desktop
+
+# Instalar Postman
+sudo snap install postman
+
+# Instalar VSCode
+sudo snap install code --classic
+
+# Install Ulancher
+sudo apt-get install ulancher
 
 # Change to ZSH
 sudo chsh -s /usr/bin/zsh
