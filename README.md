@@ -1,8 +1,8 @@
-# Enriquetecfan’s dotfiles
+# My own dotfiles
 
 ## Includes
 
-- **Shell**: ZSH + Startship.rs
+- **Shell**: ZSH + Ohmyzsh
 - **Essentials tools**: wget + git + make + cmake + g++
 - **CLI Editors**: vim + nano + micro
 - **API/Request tools**: curl
@@ -16,15 +16,6 @@
 - alias python -> to use python 3 instead of python 2
 - alias bat -> to use the bat command instead of cat
 
-## Wallpaper
-
-My own collection of wallpapers 
-
-## VSCode 
-
-All my config of VSCode and extensions
-
-
 ## Author
 
-[![twitter/enriquetecfan](http://1.gravatar.com/avatar/d31ede569956380200b718ffe7ae90cf<)](http://twitter.com/enriquetecfan "Follow @enriquetecfan on Twitter") 
+[![twitter/kikerodrivela](http://twitter.com/kikerodrivela "Follow @enriquetecfan on Twitter") 
